@@ -1,0 +1,105 @@
+1
+150
+2
+0.85
+0.95
+0.9
+2
+0.3
+1
+0.8
+1
+-0.7
+-0.4
+0
+15
+8
+15
+15
+30
+5
+9
+11
+15
+5
+8
+7
+12
+10
+15
+6
+8
+0
+2
+0.2
+0.2
+2.2
+2.5
+-1
+-0.3
+3.5
+5
+0.5
+1.5
+0.2
+1
+0.01
+2
+
+
+
+
+1. Temps de réaction (s)
+2. Prevoyance (m)
+3. rapport distance_secu (a)
+
+4. rapport vitesse inf (no dim)
+5. rapport vitesse sup (no dim)
+
+6. coeff distance secu inf (a)
+7. coeff distance secu sup (a)
+
+8. coeff acceleration inf (a)
+9. coeff acceleration sup (a)
+
+10.coeff deceleration inf (a)
+11.coeff deceleration sup (a)
+
+12.decel_limite_changement_inf (a)
+13.decel_limite_changement_sup (a)
+
+14.self.vit_seuil_entree_regime_lent_inf
+15.self.vit_seuil_entree_regime_lent_sup
+16.self.dist_seuil_entree_regime_lent_inf = float(self.profile.readline())
+17.self.dist_seuil_entree_regime_lent_sup = float(self.profile.readline())
+18.self.duree_regime_lent_inf = float(self.profile.readline())
+19.self.duree_regime_lent_sup = float(self.profile.readline())
+20.self.duree_change_voie_gauche_inf = float(self.profile.readline())
+21.self.duree_change_voie_gauche_sup = float(self.profile.readline())
+22.self.duree_change_voie_droite_inf = float(self.profile.readline())
+23.self.duree_change_voie_droite_sup = float(self.profile.readline())
+24.self.duree_accel_inf = float(self.profile.readline())
+25.self.duree_accel_sup = float(self.profile.readline())
+26.self.duree_decel_inf = float(self.profile.readline())
+27.self.duree_decel_sup = float(self.profile.readline())
+28.self.duree_neutre_inf = float(self.profile.readline())
+29.self.duree_neutre_sup = float(self.profile.readline())
+30.self.vit_voie_gauche_inf = float(self.profile.readline()) autour de 8.33 ie 20 km/h de plus 
+31.self.vit_voie_gauche_sup = float(self.profile.readline())
+32.self.ajout_vit_voulue_inf = float(self.profile.readline())
+33.self.ajout_vit_voulue_sup = float(self.profile.readline())
+34.self.seuil_indice_ACCEL = float(self.profile.readline())
+35.self.seuil_indice_DECEL = float(self.profile.readline())
+36.self.temps_distance_secu_CV_inf = float(self.profile.readline())
+37.self.temps_distance_secu_CV_sup = float(self.profile.readline())
+38.self.vitesse_seuil_voie_droite_inf = float(self.profile.readline())
+39.self.vitesse_seuil_voie_droite_sup = float(self.profile.readline())
+40.self.vitesse_seuil_voie_gauche_inf = float(self.profile.readline())
+41.self.vitesse_seuil_voie_gauche_sup = float(self.profile.readline())
+42.self.driver.seuil_entree_stationnaire_inf = float(self.profile.readline()) vitesse
+43.self.driver.seuil_entree_stationnaire_sup = float(self.profile.readline())
+44.self.driver.temps_reaction_inf = float(self.profile.readline()) temps
+45.self.driver.temps_reaction_sup = float(self.profile.readline())
+		self.proba_non_obstruction = float(self.profile.readline())
+		self.seuil_diff_vitesse_NO = float(self.profile.readline())
+

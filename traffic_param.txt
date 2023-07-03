@@ -1,0 +1,12 @@
+10
+40
+50
+0.35
+0
+0.50
+
+1. pourcentage d'aggressifs
+2. de moyens
+3. de prudents
+4. proportion de cell sur la voie de gauche au lancement ici 35%
+5. proportion camions (17.5 m)

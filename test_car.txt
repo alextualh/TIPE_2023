@@ -1,0 +1,10 @@
+3
+100
+4
+False
+30.5
+
+		self.acceleration_max = int(self.profile.readline())
+		self.freinage_max = int(self.profile.readline())
+		self.longueur = int(self.profile.readline())
+		self.camion = bool(self.profile.readline())

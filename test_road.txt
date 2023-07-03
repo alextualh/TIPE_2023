@@ -1,0 +1,12 @@
+2
+30.5
+4000
+0
+10
+
+
+1. nombre de voies
+2. limitation de vitesse
+3. taille de la route en metres
+4. si 1, affiche les vitesses sur les voitures, si 2 les états c et nc
+5. prélévement de la vitesse moyenne tout les ce nombre * dt
